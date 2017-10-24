@@ -61,5 +61,5 @@ void test(const string filename)
 
 int main()
 {
-    test("./data/1.mp4");
+    test("../data/1.mp4");
 }

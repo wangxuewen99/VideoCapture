@@ -11,7 +11,7 @@ link_directories("${PROJECT_SOURCE_DIR}/3rd/lib")
 
 add_executable(${PROJECT_NAME} "${PROJECT_SOURCE_DIR}/src/ffdecoder.cpp"
                                "${PROJECT_SOURCE_DIR}/src/videocapture.cpp"
-                               "${PROJECT_SOURCE_DIR}/src/main.cpp")
+                               "${PROJECT_SOURCE_DIR}/main.cpp")
 
 target_link_libraries (${PROJECT_NAME} avformat avcodec avutil swscale dl rt x264 x265 z  m opencv_core opencv_imgproc opencv_highgui pthread)
 
